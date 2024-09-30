@@ -1,3 +1,7 @@
+.container
+{
+    position: relative;
+}
 
 .headline
 {
@@ -5,26 +9,37 @@
     text-align: center;
     font-family:Roboto slab, serif;
     font-weight: 800;
-    font-size: 900%;
+    font-size: 8vw;
     color: white;
-    text-shadow: black 8px 8px;
-    -webkit-text-stroke-width: 3px;
+    text-shadow: black 0.5vw 0.5vw;
+    -webkit-text-stroke-width: 0.2vw;
     -webkit-text-stroke-color: black;
     text-transform: uppercase;
-    margin-top: 2%;
-    padding: 5%;
+    margin-top: 1vw;
+    margin-left: 12vw;
+    padding: 4vw;
     background: red;
-    line-height: 3%;
-    height: 5%;
-    outline: white 6px solid;
-    word-spacing: 30px;
+    line-height: 0.3vw;
+    height: 1vw;
+    outline: white 0.4vw solid;
+    word-spacing: 16vw;
+    position: absolute;
 
 }
 
 .symbol
 {
-    z-index: 1;
-    height: 5%;
-    width: 5%;
+    z-index: 0;
+    margin-left: 43vw;
+    padding: 6vw;
+    transform: skew(-17deg);
     background: black;
+    position: absolute;
+}
+
+.logo
+{
+    position: relative;
+    text-align: center;
+    margin-right: 2vw;
 }
