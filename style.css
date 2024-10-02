@@ -18,7 +18,7 @@
     margin-top: 1vw;
     margin-left: 12vw;
     padding: 4vw;
-    background: red;
+    background: #F64740;
     line-height: 0.3vw;
     height: 1vw;
     outline: white 0.4vw solid;
@@ -33,14 +33,75 @@
     margin-left: 43vw;
     padding: 6vw;
     transform: skew(-17deg);
-    background: black;
+    background: #291F1E;
     position: absolute;
 }
 
 .logo
 {
-
     position: relative;
-    text-align: center;
-    margin-right: 2vw;
+    margin-left: 41.8vw;
+    img{
+        width: 13vw;
+        height: 13vw;
+    }
+}
+
+.TextBox1
+{
+    position: absolute;
+    width: 45vw;
+    background-color: #291F1E;
+    border: 1vw solid #A3333D;
+    margin-left: 6vw;
+    h2{
+        text-decoration: underline;
+        font-family: Anton, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 3.5vw;
+        Color: white;
+    }
+
+    p{
+        text-align: justify;
+        font-size: 2.5vw;
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 100;
+        Color: white;
+
+    }
+
+
+
+}
+.TextBox2
+{
+    position: relative;
+    width: 30vw;
+    background-color: #291F1E;
+    border: 1vw solid #A3333D;
+    margin-left: 60vw;
+    h2{
+        text-decoration: underline;
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 800;
+        font-style: normal;
+        font-size: 3.5vw;
+        Color: white;
+    }
+    img{
+        margin-left: 2.5vw;
+        width: 25vw;
+    }
+
+    p{
+        text-align: justify;
+        font-size: 2.5vw;
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 100;
+        Color: white;
+
+    }
+
 }
