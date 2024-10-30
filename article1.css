@@ -41,10 +41,17 @@ main
 {
     margin-top: 5vw;
 
+
+   .ad
+   {
+       font-size: 100%;
+   }
+
     table
     {
         width: 100%;
         color: white;
+        font-family: Anton, serif;
     }
    td
     {
