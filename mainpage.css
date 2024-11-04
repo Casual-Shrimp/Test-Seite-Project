@@ -41,6 +41,7 @@
 {
     position: relative;
     margin-left: 41.8vw;
+
     img{
         width: 13vw;
         height: 13vw;
@@ -62,6 +63,13 @@
         font-size: 3.5vw;
         Color: white;
     }
+    img{
+        margin-left: 1.5vw;
+        height: 20vw;
+        width: 42vw;
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+    }
 
     p{
         text-align: justify;
@@ -82,7 +90,7 @@
     background-color: #291F1E;
     border: 1vw solid #A3333D;
     margin-left: 60vw;
-    h2{
+    a{
         text-decoration: underline;
         font-family: "Bebas Neue", sans-serif;
         font-weight: 800;
@@ -93,6 +101,8 @@
     img{
         margin-left: 2.5vw;
         width: 25vw;
+        margin-top: 2vw;
+        margin-bottom: 2vw;
     }
 
     p{
@@ -103,5 +113,26 @@
         Color: white;
 
     }
+
+
+}
+.temp
+{
+    margin-top: 75vw;
+    h2{
+        text-align: center;
+        text-decoration: underline;
+        font-family: "Bebas Neue", sans-serif;
+        font-size: 4vw;
+        color: white;
+    }
+    a{
+        font-size: 2vw;
+        font-family: Roboto, sans-serif;
+        font-weight: 500;
+        Color: white;
+    }
+
+
 
 }

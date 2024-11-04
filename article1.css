@@ -44,7 +44,14 @@ main
 
    .ad
    {
-       font-size: 100%;
+
+       img{
+           width: 10vw;
+           margin-left: 1.2vw;
+       }
+           font-size: 0.75vw;
+           word-spacing: -0.05vw;
+           font-weight: 200;
    }
 
     table
@@ -52,6 +59,11 @@ main
         width: 100%;
         color: white;
         font-family: Anton, serif;
+        a{
+            font-size: 2vw;
+            word-spacing: -0.05vw;
+            font-weight: 200;
+        }
     }
    td
     {
@@ -59,6 +71,10 @@ main
        font-family: Anton, serif;
        font-size: 1.5vw;
        word-spacing: 0.5vw;
+       img{
+           width: 60vw;
+           margin-left: 5vw;
+       }
 
     }
 }
