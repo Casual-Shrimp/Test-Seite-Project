@@ -54,9 +54,20 @@ main
            font-weight: 200;
    }
 
+    .ad2
+    {
+
+        img{
+            width: 12vw;
+        }
+    }
+
     table
     {
-        width: 100%;
+        position: relative;
+        width: 30vw;
+        background-color: #291F1E;
+        border: 1vw solid #A3333D;
         color: white;
         font-family: Anton, serif;
         a{
@@ -67,7 +78,6 @@ main
     }
    td
     {
-       padding: 2vw;
        font-family: Anton, serif;
        font-size: 1.5vw;
        word-spacing: 0.5vw;
