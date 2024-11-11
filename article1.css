@@ -4,6 +4,37 @@
     padding-top: 2vw;
 }
 
+.navigation{
+    position: relative;
+    background-color: #A3333D;
+    max-width: 100%;
+    max-height: 5vw;
+    font-size: 1vw;
+    font-family: arial, sans-serif;
+    color: white;
+    border: 0.2vw solid #291F1E;
+    nav ul{
+        display: flex;
+
+    }
+
+    nav li {
+        list-style-type: none;
+        img{
+            padding-left: 3vw;
+            padding-right: 3vw;
+            height: 3vw;
+        }
+    }
+    nav li:hover{
+        img{
+            height: 3.1vw;
+            padding-left: 2.9vw;
+        }
+
+    }
+}
+
 .header
 {
 z-index: 9;
